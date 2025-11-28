@@ -6,3 +6,7 @@ debug
 foo.*
 *.log
 data
+
+# I'm not tracking these lock files, for now.
+lazy-lock.json
+lazyvim.json
