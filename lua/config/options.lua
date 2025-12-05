@@ -9,3 +9,4 @@ vim.opt.foldtext = "v:lua.MyFoldText()"
 
 vim.opt.swapfile = false
 vim.opt.relativenumber = false
+vim.opt.number = false
