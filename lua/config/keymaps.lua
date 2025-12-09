@@ -10,4 +10,4 @@ vim.keymap.del({ "n", "x" }, "j")
 -- vim.keymap.del({ "n", "x" }, "<Up>")
 -- vim.keymap.del({ "n", "x" }, "<Down>")
 
-vim.keymap.set("i", "kd", "<ESC>")
+-- vim.keymap.set("i", "kd", "<ESC>")
