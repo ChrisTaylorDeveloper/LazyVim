@@ -9,3 +9,5 @@ vim.keymap.del({ "n", "x" }, "j")
 -- But do not remove the LazyVim Up / Down arrow re-maps.
 -- vim.keymap.del({ "n", "x" }, "<Up>")
 -- vim.keymap.del({ "n", "x" }, "<Down>")
+
+vim.keymap.set("i", "kd", "<ESC>")
