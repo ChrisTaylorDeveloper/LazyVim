@@ -13,3 +13,5 @@ vim.opt.relativenumber = false
 vim.opt.number = false
 
 vim.opt.scrolloff = 2
+
+vim.opt.fixendofline = false
