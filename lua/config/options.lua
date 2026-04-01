@@ -12,3 +12,4 @@ vim.opt.relativenumber = false
 vim.opt.number = false
 vim.opt.scrolloff = 1
 vim.opt.fixendofline = false
+vim.opt.conceallevel = 0
