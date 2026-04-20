@@ -8,10 +8,12 @@
 -- e.g. vim.api.nvim_del_augroup_by_name("lazyvim_wrap_spell")
 
 vim.api.nvim_create_autocmd("BufRead", {
-  pattern = "notes.txt",
-  desc = "Set the foldmethod for my notes.txt file",
+  pattern = vim.env.NOTES_PATH .. "notes.txt",
   callback = function()
-    -- print 'Setting foldmethod=indent for notes.txt'
     vim.opt.foldmethod = "indent"
+    function FoldText()
+      return ""
+    end
+    vim.opt.foldtext = "v:lua.FoldText()"
   end,
 })
